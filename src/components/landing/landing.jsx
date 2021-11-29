@@ -46,12 +46,7 @@ function intro() {
             <div id="modal-window" class="modal-window">
                 <div className="modal-content">
                     <span className="modal-close" onClick={modalClose}>&times;</span>
-                    <form action="submit" className="modal-form">
-                        <input name="" id="" placeholder="Name"></input>
-                        <textarea placeholder="Type your message"></textarea>
-                        <button>submit</button>
-                    </form>
-                    <br />
+                    <h3>Send an email to <span id='email'>fondunndev@gmail.com</span></h3>
                         <h3>Or You can text me at <a href={links[0].link}>{links[0].title}</a></h3>
                 </div>
             </div>
